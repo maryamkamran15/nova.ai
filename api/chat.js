@@ -2,7 +2,7 @@
 // The Groq API key is read only from the server-side environment variable.
 // Never put the key in frontend JavaScript or commit it to GitHub.
 
-const MODEL = "llama-3.3-70b-versatile";
+const MODEL = "openai/gpt-oss-120b";
 const MAX_HISTORY_MESSAGES = 40;
 const MAX_MESSAGE_CHARS = 4000;
 
