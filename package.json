@@ -1,0 +1,16 @@
+{
+  "name": "nova-groq-chatbot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Nova - an LLM chatbot powered by Groq and deployed on Vercel.",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "vercel dev"
+  },
+  "engines": {
+    "node": "22.x"
+  },
+  "devDependencies": {
+    "vercel": "^48.0.0"
+  }
+}
